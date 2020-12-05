@@ -30,7 +30,7 @@ const Buscar = () => {
 
     return (
         <Layout>
-            <div className="listado-productos">
+            <div className="listado-conductores">
                 <div className="contenedor">
 
                     {resultado.length === 0 ? (

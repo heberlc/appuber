@@ -108,7 +108,7 @@ const DetallesConductor = ({ conductor }) => {
             </DescripcionConductor>
 
             <Votos>
-                <div> &#9650; </div>
+                <div> &#10004; </div>
                 <p>{votos}</p>
             </Votos>
         </Conductor>

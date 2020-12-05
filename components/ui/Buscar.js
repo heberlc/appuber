@@ -27,7 +27,7 @@ const Buscar = () => {
 
     const [busqueda, guardarBusqueda] = useState('');
 
-    const buscarProducto = e => {
+    const buscarConductor = e => {
         e.preventDefault();
 
         if (busqueda.trim() === '') return;
@@ -44,11 +44,11 @@ const Buscar = () => {
             css={css`
                 position: relative;
             `}
-            onSubmit={buscarProducto}
+            onSubmit={buscarConductor}
         >
             <InmputText
                 type="text"
-                placeholder="Buscar Productos"
+                placeholder="Buscar Conductores"
                 onChange={e => guardarBusqueda(e.target.value)}
             />
 
